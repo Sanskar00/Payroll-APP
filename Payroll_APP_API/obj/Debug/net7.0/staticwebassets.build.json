@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vnMXzxZOG8CRNo6b+V8MvTAPvY+gHrsLdYxKDGFU/eM=",
+  "Source": "Payroll_APP.API",
+  "BasePath": "_content/Payroll_APP.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
