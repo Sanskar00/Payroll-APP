@@ -16,8 +16,8 @@ namespace Payroll_APP_API.Controllers
 			string emp_name = Request.Form["emp_name"];
 			string form_salary = Request.Form["basic_salary"];
 			string emp_type = Request.Form["emp_type"];
-			int basic_salary = int.Parse(form_salary);
-			if (emp_type == "Prog" && emp_name != null)
+            int basic_salary = int.Parse(form_salary);//it is a basic salary 
+            if (emp_type == "Prog" && emp_name != null)
 			{
 				Programmer prog = new Programmer(emp_name, basic_salary);
 				Employee emp = prog;
