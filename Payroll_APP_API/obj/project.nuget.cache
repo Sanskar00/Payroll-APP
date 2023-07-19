@@ -1,16 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "m0QFseMG90ypHPOxjMDq4EJpEIX43oWPCwQ7rScg+AsQw+WXPhKoFppapGT/i216B8+WWkSWhZ1tL/LWLLeLtA==",
-  "success": true,
-  "projectFilePath": "/Users/sanskarsaxena/Projects/Payroll_APP/Payroll_APP_API/Payroll_APP.API.csproj",
+  "dgSpecHash": "7fWQtHdroS8dTRr3xW/kTKOMIy5fNYfHGYeCH0QRmQSOW6h8Uh3DWcP8ZBG7MFGMVETs26xopvlFwOlJKpWT5g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
   "expectedPackageFiles": [
-    "/Users/sanskarsaxena/.nuget/packages/microsoft.aspnetcore.openapi/7.0.7/microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
-    "/Users/sanskarsaxena/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/Users/sanskarsaxena/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
-    "/Users/sanskarsaxena/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
-    "/Users/sanskarsaxena/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
-    "/Users/sanskarsaxena/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/Users/sanskarsaxena/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "C:\\Users\\ssaxena\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
+    "C:\\Users\\ssaxena\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ssaxena\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\ssaxena\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\ssaxena\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\ssaxena\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\ssaxena\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
