@@ -15,7 +15,7 @@ namespace Payroll_APP_API.Controllers
 		public  ArrayList AddEmployee() {
 			string emp_name = Request.Form["emp_name"];
 			string form_salary = Request.Form["basic_salary"];
-			string emp_type = Request.Form["emp_type"];
+			string emp_type = Request.Form["emp_type"];// type of employee
             int basic_salary = int.Parse(form_salary);//it is a basic salary 
             if (emp_type == "Prog" && emp_name != null)
 			{
