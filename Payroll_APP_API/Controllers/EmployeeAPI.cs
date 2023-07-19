@@ -13,7 +13,7 @@ namespace Payroll_APP_API.Controllers
 
         [HttpPost]
 		public  ArrayList AddEmployee() {
-			string emp_name = Request.Form["emp_name"];// emp name coming in request
+			string emp_name = Request.Form["emp_name"];// emp name coming in request ksksk
 			string form_salary = Request.Form["basic_salary"];
 			string emp_type = Request.Form["emp_type"];// type of employee coming in request
             int basic_salary = int.Parse(form_salary);//basic salary comint in request
