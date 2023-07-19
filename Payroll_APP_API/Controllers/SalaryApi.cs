@@ -11,7 +11,7 @@ namespace Payroll_APP.API.Controllers
         [HttpGet]
 		public ArrayList GetSalary()
 		{
-            ArrayList salary_list = new ArrayList();//it is salary list
+            ArrayList salary_list = new ArrayList();//it is salary list new
             foreach(Employee obj in Employee.EmpList) {
                 Hashtable emp = new Hashtable();
                 emp.Add("emp_name",obj.emp_name);
