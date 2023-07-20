@@ -11,11 +11,7 @@ namespace Payroll_APP.API.Controllers
         [HttpGet]
 		public ArrayList GetSalary()
 		{
-<<<<<<< Updated upstream
             ArrayList salary_list = new ArrayList();//it is salary list new nnn
-=======
-            ArrayList salary_list = new ArrayList();//it is salary list new djhdj
->>>>>>> Stashed changes
             foreach(Employee obj in Employee.EmpList) {
                 Hashtable emp = new Hashtable();
                 emp.Add("emp_name",obj.emp_name);

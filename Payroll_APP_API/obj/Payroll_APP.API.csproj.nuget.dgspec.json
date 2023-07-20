@@ -1,17 +1,72 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj": {}
+    "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj": {
+    "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
-        "projectName": "Payroll_APP.API",
-        "projectPath": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
+        "projectUniqueName": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj",
+        "projectName": "Payroll_APP",
+        "projectPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj",
         "packagesPath": "C:\\Users\\ssaxena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\obj\\",
+        "outputPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ssaxena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
+        "projectName": "Payroll_APP.API",
+        "projectPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
+        "packagesPath": "C:\\Users\\ssaxena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ssaxena\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +84,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj": {
-                "projectPath": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj"
+              "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj": {
+                "projectPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj"
               }
             }
           }
