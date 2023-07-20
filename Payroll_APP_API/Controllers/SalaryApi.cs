@@ -14,7 +14,7 @@ namespace Payroll_APP.API.Controllers
             ArrayList salary_list = new ArrayList();//it is salary list new
             foreach(Employee obj in Employee.EmpList) {
                 Hashtable emp = new Hashtable();
-                emp.Add("emp_name",obj.emp_name);
+                emp.Add("emp_name",obj.emp_name);// adding emp
                 emp.Add("salary", obj.ComputeSalary());
                 salary_list.Add(emp);
             }
