@@ -11,10 +11,10 @@ namespace Payroll_APP.API.Controllers
         [HttpGet]
 		public ArrayList GetSalary()
 		{
-            ArrayList salary_list = new ArrayList();//it is salary list new
+            ArrayList salary_list = new ArrayList();//it is salary list new nnn
             foreach(Employee obj in Employee.EmpList) {
                 Hashtable emp = new Hashtable();
-                emp.Add("emp_name",obj.emp_name);// adding emp
+                emp.Add("emp_name",obj.emp_name);
                 emp.Add("salary", obj.ComputeSalary());
                 salary_list.Add(emp);
             }

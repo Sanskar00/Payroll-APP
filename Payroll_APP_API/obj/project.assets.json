@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Payroll_APP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Payroll_APP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Payroll_APP.dll": {}
+        }
       }
     }
   },
@@ -460,12 +470,17 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Payroll_APP/1.0.0": {
+      "type": "project",
+      "path": "../Payroll_APP/Payroll_APP.csproj",
+      "msbuildProject": "../Payroll_APP/Payroll_APP.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj",
       "Microsoft.AspNetCore.OpenApi >= 7.0.7",
+      "Payroll_APP >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -475,11 +490,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
+      "projectUniqueName": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
       "projectName": "Payroll_APP.API",
-      "projectPath": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
+      "projectPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\Payroll_APP.API.csproj",
       "packagesPath": "C:\\Users\\ssaxena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP_API\\obj\\",
+      "outputPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ssaxena\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -497,8 +512,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj": {
-              "projectPath": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj"
+            "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj": {
+              "projectPath": "C:\\Users\\ssaxena\\source\\repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj"
             }
           }
         }
@@ -544,16 +559,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\ssaxena\\Source\\Repos\\Payroll-APP\\Payroll_APP\\Payroll_APP.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }
